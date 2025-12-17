@@ -1,0 +1,123 @@
+=====================================================================
+ACADEMIC RESEARCH AND EDUCATIONAL USE LICENSE (AREUL)
+LICENÇA DE USO ACADÊMICO E EDUCACIONAL (AREUL)
+=====================================================================
+
+Copyright (c) 2025
+Author / Autor: Iraê César Brandão
+
+---------------------------------------------------------------------
+ENGLISH VERSION
+---------------------------------------------------------------------
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software, documentation, and associated materials (the
+"Work"), to use, copy, modify, and distribute the Work solely for
+academic, educational, and non-commercial research purposes, subject
+to the conditions set forth below.
+
+1. Permitted Uses
+
+The following uses of the Work are expressly permitted:
+- Academic research and scientific experimentation;
+- Educational activities and teaching;
+- Non-commercial scientific studies;
+- Reproducibility studies and methodological analysis;
+- Inclusion in academic theses, dissertations, and scholarly
+  publications, provided that proper attribution is given.
+
+2. Prohibited Uses
+
+The following uses are strictly prohibited:
+- Commercial use of any kind;
+- Integration into proprietary or commercial products;
+- Sale, licensing, sublicensing, or monetization of the Work;
+- Use in production systems or services offered commercially.
+
+3. Attribution Requirement
+
+Any use of the Work must include appropriate citation of the author and
+reference to the original repository.
+
+Suggested citation:
+Brandão, I. C. (2025). Validation of Synthetic Data via T5 Paraphrasing
+for HRI. GitHub repository.
+
+4. Disclaimer of Warranty
+
+The Work is provided "AS IS", without warranty of any kind, express or
+implied, including but not limited to warranties of merchantability,
+fitness for a particular purpose, and noninfringement.
+
+5. Limitation of Liability
+
+Under no circumstances shall the author be liable for any direct,
+indirect, incidental, or consequential damages arising from the use
+or inability to use the Work.
+
+6. Governing Principles
+
+This license is intended to promote open academic inquiry,
+reproducibility, and methodological rigor, while preventing
+unauthorized commercial exploitation of scholarly work.
+
+---------------------------------------------------------------------
+VERSÃO EM PORTUGUÊS
+---------------------------------------------------------------------
+
+É concedida, gratuitamente, permissão a qualquer pessoa que obtenha
+uma cópia deste software, documentação e materiais associados
+(o "Trabalho") para usar, copiar, modificar e distribuir o Trabalho
+exclusivamente para fins acadêmicos, educacionais e de pesquisa não
+comercial, sujeita às condições abaixo.
+
+1. Usos Permitidos
+
+São expressamente permitidos:
+- Pesquisa acadêmica e experimentação científica;
+- Atividades educacionais e de ensino;
+- Estudos científicos não comerciais;
+- Análises metodológicas e estudos de reprodutibilidade;
+- Inclusão em teses, dissertações e publicações acadêmicas, desde que
+  haja a devida atribuição autoral.
+
+2. Usos Proibidos
+
+São estritamente proibidos:
+- Uso comercial de qualquer natureza;
+- Integração em produtos proprietários ou comerciais;
+- Venda, licenciamento, sublicenciamento ou monetização do Trabalho;
+- Uso em sistemas de produção ou serviços oferecidos comercialmente.
+
+3. Exigência de Atribuição
+
+Qualquer uso do Trabalho deve incluir citação apropriada do autor e
+referência ao repositório original.
+
+Citação sugerida:
+Brandão, I. C. (2025). Validation of Synthetic Data via T5 Paraphrasing
+for HRI. Repositório GitHub.
+
+4. Isenção de Garantias
+
+O Trabalho é fornecido "NO ESTADO EM QUE SE ENCONTRA", sem garantias
+de qualquer tipo, expressas ou implícitas.
+
+5. Limitação de Responsabilidade
+
+Em nenhuma circunstância o autor será responsável por quaisquer danos
+diretos, indiretos, incidentais ou consequenciais decorrentes do uso
+ou da incapacidade de uso do Trabalho.
+
+6. Princípios Norteadores
+
+Esta licença visa apoiar a investigação acadêmica aberta, a
+transparência científica e o rigor metodológico, impedindo a
+exploração comercial não autorizada do trabalho acadêmico.
+
+---------------------------------------------------------------------
+
+By using, copying, or distributing this Work, you agree to the terms of
+this license.
+Ao usar, copiar ou distribuir este Trabalho, você concorda com os
+termos desta licença.
