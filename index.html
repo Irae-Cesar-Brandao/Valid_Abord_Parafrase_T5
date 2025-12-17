@@ -76,12 +76,12 @@
 <body>
 
 <div style="display:flex; gap:30px; align-items:center;">
-  <img src="logo.png" style="height:100px;">
+  <img src="logo.png" style="height:160px;">
   <img src="lwi.png" style="height:80px;">
 </div>
  
   <h1>Validação Objetiva da Abordagem de Paráfrase T5</h1>
-  <h6> By: Iraê César Brandão  </h6> 
+  <h5 style="color: #f00;"> By: Iraê César Brandão  </h6> 
 
   <section class="card">
     <p>
@@ -207,11 +207,12 @@
     <div id="output" class="result" style="display:none;"></div>
   </section>
 
-  <section>
 
-<h3><b>  ORIENTAÇÕES DE USO </b></H3> <br>
-<h5>
-<b> 1- O que é o template nesse contexto? </b> <br><br>
+<section class="card">
+<hr><hr>
+<h3><b>  ORIENTAÇÕES DE USO </b></h3> <br>
+
+<h3> 1- O que é o template nesse contexto? </h3> <br><br>
 
 O template representa um plano de validação experimental da abordagem de paráfrase T5.
 Ele não executa código real, mas descreve como o experimento seria conduzido, permitindo:
@@ -223,7 +224,7 @@ Ele não executa código real, mas descreve como o experimento seria conduzido, 
 Pense nele como um protocolo experimental resumido.
 <hr>
 
-<b> 2- Estrutura lógica do template </b> <br><br>
+<h3> 2- Estrutura lógica do template </h3> <br><br>
 
 Um template bem-formado normalmente contém:<br>
 - Objetivo da validação; <br>
@@ -236,7 +237,7 @@ Um template bem-formado normalmente contém:<br>
 No aplicativo, tudo isso é texto livre, mas estruturado para clareza.
 <hr>
 
-<b> 3- Template SIMULADO (copie e cole)</b> <br><br>
+<h3> 3- Template SIMULADO (copie e cole)</h3> <br><br>
 
 👉 Copie exatamente o texto abaixo e cole na caixa “Template de validação” <br><br>
 
@@ -266,26 +267,236 @@ de comandos HRI e contribuem para um treinamento mais robusto. <br><br>
 - Aplicação de LIME/SHAP para verificar foco em elementos semânticos relevantes.
 <hr>
 
-<b> 4- O que acontece ao clicar nos botões? </b> <br><br>
-👉 <b> Salvar template</b> <br>
-- O texto acima é armazenado temporariamente no navegador; <br>
-- Simula a persistência de um protocolo experimental. <br><br>
+<h3> 4- O que acontece ao clicar nos botões? </h3> <br><br>
+👉 <b> EXPORTAR TEMPLATE (Salvar template)</b> <br>
+- O texto acima é armazenado temporariamente no navegador;
+- Simula a persistência de um protocolo experimental; <br>
+- Ao mesmo tempo, é exportado um arquivo (download) com o nome "template_validacao_T5.json", ficando este armazenado  na pasta Downloads do usuário. <br>
+<br>
 
-👉 <b> Carregar template</b> <br>
-- Recupera o protocolo salvo; <br>
+👉 <b> IMPORTAR TEMPLATE (Carregar template)</b> <br>
+- Abre uma caixa de diálogo onde se deve buscar o arquivo salvo (na pasta utilizada para armazenar o protolo salvo); <brL
+- Após selecionado o arquivo, clicado em "Abrir", recupera o protocolo salvo; <br>
 - Simula reutilização do experimento. <br><br>
 
 👉 <b> Simular resultados</b> <br>
-Gera valores ilustrativos como:<br>
+O resultado simulado será baseado no template importado, ou digitado ou até mesmo colado (copia/cola) dentro da caixa de texto, gerando os valores conforme exemplo a seguir.<br>
+* Gera valores ilustrativos como:<br>
 - BLEU ≈ 0.45 – 0.80 <br>
 - ROUGE ≈ 0.45 – 0.80 <br>
 - Preservação de intenção ≈ 90% – 99% <br><br>
 
 Representa um cenário de validação bem-sucedida. <br>
- 
-</h5>
+ </section>
 
-  </section>
+<hr><hr>
+
+
+<section class="card">
+  <h2>Interpretação das Métricas (Escala 0–100)</h2>
+
+  <p>
+    Os valores de BLEU, ROUGE e preservação de intenção devem ser analisados de forma conjunta,
+    pois cada métrica captura um aspecto distinto da qualidade dos dados sintéticos gerados
+    por paráfrase.
+  </p>
+
+  <h3>Escalas utilizadas</h3>
+  <ul>
+    <li><b>BLEU e ROUGE:</b> originalmente variam de 0 a 1, sendo aqui interpretados na escala 0–100.</li>
+    <li><b>Preservação de intenção:</b> expressa diretamente em percentual (0–100%).</li>
+  </ul>
+
+  <h3>Interpretação de BLEU e ROUGE</h3>
+  <p>
+    BLEU e ROUGE medem a sobreposição lexical entre o texto original e a paráfrase.
+    Em tarefas de reformulação textual, valores intermediários são desejáveis,
+    pois indicam diversidade linguística sem perda semântica.
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Faixa (0–100)</th>
+        <th>Interpretação</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>0 – 30</td>
+        <td>Texto semanticamente distante ou mal formado</td>
+      </tr>
+      <tr>
+        <td>30 – 45</td>
+        <td>Paráfrase fraca ou ruidosa</td>
+      </tr>
+      <tr>
+        <td><b>45 – 60</b></td>
+        <td><b>Paráfrase válida com diversidade linguística</b></td>
+      </tr>
+      <tr>
+        <td><b>60 – 80</b></td>
+        <td><b>Boa preservação semântica com variação controlada</b></td>
+      </tr>
+      <tr>
+        <td>80 – 100</td>
+        <td>Alta similaridade textual ou reformulação superficial</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Interpretação da Preservação de Intenção</h3>
+  <p>
+    A preservação de intenção é avaliada por meio da acurácia de um classificador treinado
+    exclusivamente com dados reais e aplicado aos comandos sintéticos.
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Faixa (%)</th>
+        <th>Interpretação</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>&lt; 70%</td>
+        <td>Intenção frequentemente perdida</td>
+      </tr>
+      <tr>
+        <td>70 – 85%</td>
+        <td>Preservação parcial da intenção</td>
+      </tr>
+      <tr>
+        <td>85 – 90%</td>
+        <td>Preservação aceitável</td>
+      </tr>
+      <tr>
+        <td><b>90 – 95%</b></td>
+        <td><b>Preservação forte da intenção</b></td>
+      </tr>
+      <tr>
+        <td><b>95 – 99%</b></td>
+        <td><b>Preservação quase total da intenção</b></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Análise conjunta das métricas</h3>
+  <p>
+    A validade científica da abordagem de paráfrase é determinada pela combinação
+    das métricas, e não por valores isolados.
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>BLEU / ROUGE</th>
+        <th>Intenção</th>
+        <th>Interpretação</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Alto</td>
+        <td>Alto</td>
+        <td>Reformulação superficial ou quase cópia</td>
+      </tr>
+      <tr>
+        <td>Baixo</td>
+        <td>Baixo</td>
+        <td>Paráfrase inadequada</td>
+      </tr>
+      <tr>
+        <td><b>Médio</b></td>
+        <td><b>Alto</b></td>
+        <td><b>Cenário ideal para dados sintéticos</b></td>
+      </tr>
+      <tr>
+        <td>Muito baixo</td>
+        <td>Alto</td>
+        <td>Excesso de variação ou ruído linguístico</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>
+    Resultados na faixa de BLEU e ROUGE entre <b>45 e 80</b>, combinados com preservação
+    de intenção entre <b>90% e 99%</b>, indicam que os comandos sintéticos preservam
+    o significado original enquanto introduzem diversidade linguística relevante,
+    tornando-os adequados para treinamento robusto de modelos HRI.
+  </p>
+</section>
+
+<hr><hr>
+
+<section class="card">
+  <h2>Tabela Final — Síntese Interpretativa dos Resultados</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Métrica</th>
+        <th>Faixa Observada</th>
+        <th>Interpretação Científica</th>
+        <th>Conclusão Metodológica</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>BLEU</td>
+        <td>45 – 80</td>
+        <td>
+          Similaridade lexical moderada, indicando diversidade linguística
+          com preservação semântica.
+        </td>
+        <td>
+          As paráfrases não são cópias literais e contribuem para data augmentation.
+        </td>
+      </tr>
+      <tr>
+        <td>ROUGE</td>
+        <td>45 – 80</td>
+        <td>
+          Sobreposição semântica suficiente para manter o conteúdo informacional
+          do comando original.
+        </td>
+        <td>
+          O conteúdo essencial dos comandos é preservado.
+        </td>
+      </tr>
+      <tr>
+        <td>Preservação de intenção</td>
+        <td>90% – 99%</td>
+        <td>
+          Alta taxa de reconhecimento correto da intenção por classificador
+          treinado em dados reais.
+        </td>
+        <td>
+          Os comandos sintéticos são funcionalmente equivalentes aos comandos humanos.
+        </td>
+      </tr>
+      <tr>
+        <td><b>Análise conjunta</b></td>
+        <td><b>BLEU/ROUGE médios + Intenção alta</b></td>
+        <td>
+          Equilíbrio entre diversidade linguística e fidelidade semântica.
+        </td>
+        <td>
+          <b>Validação objetiva da utilidade da abordagem de paráfrase T5.</b>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>
+    A combinação de métricas linguísticas intermediárias com elevada preservação
+    de intenção fornece evidências objetivas de que a abordagem de paráfrase T5
+    é adequada para a geração de dados sintéticos em cenários de interação
+    humano–robô, apoiando o treinamento robusto de modelos.
+  </p>
+</section>
+
 
   <footer>
     <hr>
