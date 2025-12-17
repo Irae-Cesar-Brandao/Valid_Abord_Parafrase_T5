@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Validação da Abordagem de Paráfrase T5</title>
+ 
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 40px;
+      background: #f7f9fb;
+      color: #333;
+    }
+    h1, h2, h3 {
+      color: #1f3a5f;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      background: #fff;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background: #e9eff5;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+    label {
+      font-weight: bold;
+    }
+    textarea, input {
+      width: 100%;
+      margin: 10px 0;
+      padding: 8px;
+      font-size: 14px;
+    }
+    button {
+      padding: 10px 16px;
+      border: none;
+      border-radius: 6px;
+      background: #1f3a5f;
+      color: #fff;
+      font-size: 14px;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+    button:hover {
+      background: #2c5282;
+    }
+    .result {
+      margin-top: 15px;
+      padding: 12px;
+      background: #eef6ff;
+      border-left: 4px solid #1f3a5f;
+    }
+    footer {
+      margin-top: 60px;
+      font-size: 13px;
+      color: #666;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div style="display:flex; gap:30px; align-items:center;">
+  <img src="logo.png" style="height:100px;">
+  <img src="lwi.png" style="height:80px;">
+</div>
+ 
+  <h1>Validação Objetiva da Abordagem de Paráfrase T5</h1>
+  <h6> By: Iraê César Brandão  </h6> 
+
+  <section class="card">
+    <p>
+      Esta página apresenta uma explicação estruturada das tabelas de níveis de dificuldade
+      e do alinhamento com a Taxonomia de Bloom aplicadas à questão de validação da abordagem
+      de paráfrase T5 para dados sintéticos de comandos em HRI.
+    </p>
+  </section>
+
+  <section>
+    <h2>Tabela 1 — Níveis de Dificuldade da Atividade</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Nível</th>
+          <th>Descrição sintética</th>
+          <th>O que o aluno precisa demonstrar</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Básico</td>
+          <td>Compreensão conceitual</td>
+          <td>Entender o que é paráfrase, intenção semântica e validação objetiva</td>
+        </tr>
+        <tr>
+          <td>Básico–Intermediário</td>
+          <td>Conhecimento de modelos NLP</td>
+          <td>Reconhecer o papel do T5 em tarefas de reformulação textual</td>
+        </tr>
+        <tr>
+          <td>Intermediário</td>
+          <td>Aplicação de métricas</td>
+          <td>Utilizar BLEU, ROUGE e classificadores de intenção</td>
+        </tr>
+        <tr>
+          <td>Intermediário–Avançado</td>
+          <td>Avaliação experimental</td>
+          <td>Comparar dados sintéticos e reais para validar preservação de intenção</td>
+        </tr>
+        <tr>
+          <td>Avançado</td>
+          <td>Integração metodológica</td>
+          <td>Combinar métricas, classificação e explicabilidade</td>
+        </tr>
+        <tr>
+          <td>Avançado</td>
+          <td>Pensamento crítico</td>
+          <td>Justificar objetivamente a utilidade do método</td>
+        </tr>
+        <tr>
+          <td>Muito Avançado / Pesquisa</td>
+          <td>Rigor científico</td>
+          <td>Articular métodos, limitações e referências acadêmicas</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Tabela 2 — Alinhamento com a Taxonomia de Bloom</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Nível de Bloom</th>
+          <th>Descrição do nível</th>
+          <th>Exigência na questão / resposta</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Lembrar</td>
+          <td>Recordar conceitos e termos</td>
+          <td>Conhecer T5, paráfrase, intenção semântica e HRI</td>
+        </tr>
+        <tr>
+          <td>Compreender</td>
+          <td>Explicar ideias centrais</td>
+          <td>Explicar por que paráfrases preservam intenção</td>
+        </tr>
+        <tr>
+          <td>Aplicar</td>
+          <td>Usar métodos e ferramentas</td>
+          <td>Aplicar métricas e classificadores</td>
+        </tr>
+        <tr>
+          <td>Analisar</td>
+          <td>Relacionar e diferenciar</td>
+          <td>Comparar dados reais e sintéticos</td>
+        </tr>
+        <tr>
+          <td>Avaliar</td>
+          <td>Julgar com critérios</td>
+          <td>Justificar a validade dos dados sintéticos</td>
+        </tr>
+        <tr>
+          <td>Criar</td>
+          <td>Propor soluções</td>
+          <td>Propor framework de validação</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="card">
+    <h2>Aplicativo de Teste (Template Temporário)</h2>
+    <p>
+      Este aplicativo simples permite salvar temporariamente um template de validação
+      e simular resultados ilustrativos de métricas.
+    </p>
+
+    <label for="template">Template de validação:</label>
+    <textarea id="template" rows="4" placeholder="Ex.: Avaliar intenção com classificador X e medir BLEU/ROUGE"></textarea>
+
+<button onclick="exportTemplate()">Exportar template</button>
+<input type="file" id="fileInput" accept=".json" onchange="importTemplate()" style="display:none;">
+<button onclick="document.getElementById('fileInput').click()">Importar template</button>
+
+  <!--  <button onclick="saveTemplate()">Salvar template</button>
+    <button onclick="loadTemplate()">Carregar template</button> -->
+    <button onclick="simulateResults()">Simular resultados</button>
+
+    <div id="output" class="result" style="display:none;"></div>
+  </section>
+
+  <section>
+
+<h3><b>  ORIENTAÇÕES DE USO </b></H3> <br>
+<h5>
+<b> 1- O que é o template nesse contexto? </b> <br><br>
+
+O template representa um plano de validação experimental da abordagem de paráfrase T5.
+Ele não executa código real, mas descreve como o experimento seria conduzido, permitindo:
+<br>
+- Padronizar testes; <br>
+- Reproduzir a metodologia; <br>
+- Simular resultados de forma controlada. <br>
+
+Pense nele como um protocolo experimental resumido.
+<hr>
+
+<b> 2- Estrutura lógica do template </b> <br><br>
+
+Um template bem-formado normalmente contém:<br>
+- Objetivo da validação; <br>
+- Fonte dos dados reais; <br>
+- Método de geração sintética (T5); <br>
+- Critérios de validação; <br>
+- Métricas utilizadas; <br>
+- Critério de aceitação. <br>
+
+No aplicativo, tudo isso é texto livre, mas estruturado para clareza.
+<hr>
+
+<b> 3- Template SIMULADO (copie e cole)</b> <br><br>
+
+👉 Copie exatamente o texto abaixo e cole na caixa “Template de validação” <br><br>
+
+<b> OBJETIVO: </b><br>
+-Validar se paráfrases geradas pelo modelo T5 preservam a intenção semântica
+de comandos HRI e contribuem para um treinamento mais robusto. <br><br>
+
+<b> DADOS REAIS:</b><br>
+-Conjunto de comandos humanos reais anotados por intenção (gold standard).<br><br>
+
+<b> GERAÇÃO SINTÉTICA:</b> <br>
+-Modelo T5 fine-tuned para tarefa de paráfrase, gerando 3 variações por comando.<br><br>
+
+<b> VALIDAÇÃO DE INTENÇÃO: </b><br>
+- Classificador de intenção treinado exclusivamente com dados reais.<br>
+- Comparação da acurácia entre dados reais e dados sintéticos.<br><br>
+
+<b> MÉTRICAS LINGUÍSTICAS:</b> <br>
+- BLEU e ROUGE aplicados para medir diversidade lexical e sobreposição semântica.<br><br>
+
+<b> CRITÉRIO DE ACEITAÇÃO: </b><br>
+- Diferença de acurácia ≤ 3% entre dados reais e sintéticos; <br>
+- BLEU e ROUGE moderados (0.4 – 0.7); <br>
+- Nenhuma evidência de viés artificial introduzido. <br><br>
+
+<b> INTERPRETABILIDADE:</b><br>
+- Aplicação de LIME/SHAP para verificar foco em elementos semânticos relevantes.
+<hr>
+
+<b> 4- O que acontece ao clicar nos botões? </b> <br><br>
+👉 <b> Salvar template</b> <br>
+- O texto acima é armazenado temporariamente no navegador; <br>
+- Simula a persistência de um protocolo experimental. <br><br>
+
+👉 <b> Carregar template</b> <br>
+- Recupera o protocolo salvo; <br>
+- Simula reutilização do experimento. <br><br>
+
+👉 <b> Simular resultados</b> <br>
+Gera valores ilustrativos como:<br>
+- BLEU ≈ 0.45 – 0.80 <br>
+- ROUGE ≈ 0.45 – 0.80 <br>
+- Preservação de intenção ≈ 90% – 99% <br><br>
+
+Representa um cenário de validação bem-sucedida. <br>
+ 
+</h5>
+
+  </section>
+
+  <footer>
+    <hr>
+    Página demonstrativa para fins acadêmicos — Simulação ilustrativa de validação metodológica<br>
+    Elaborado por Iraê C. Brandão- DEV 
+  </footer>
+
+ <!-- SCRIPT REMOVIDO DA EXECUÇÃO --> 
+
+<script>
+    function saveTemplate() {
+      const text = document.getElementById('template').value;
+      localStorage.setItem('validationTemplate', text);
+      showOutput('Template salvo temporariamente no navegador.');
+    }
+
+    function loadTemplate() {
+      const text = localStorage.getItem('validationTemplate');
+      if (text) {
+        document.getElementById('template').value = text;
+        showOutput('Template carregado com sucesso.');
+      } else {
+        showOutput('Nenhum template salvo foi encontrado.');
+      }
+    }
+
+function simulateResults() {
+  const bleu = (Math.random() * 0.4 + 0.4).toFixed(2);
+  const rouge = (Math.random() * 0.4 + 0.4).toFixed(2);
+  const intent = (Math.random() * 10 + 90).toFixed(1);
+
+  showOutput(
+    'Simulação de resultados:<br>' +
+    'BLEU: ' + bleu + '<br>' +
+    'ROUGE: ' + rouge + '<br>' +
+    'Preservação de intenção: ' + intent + '%<br>'
+  );
+}
+
+    function showOutput(message) {
+      const out = document.getElementById('output');
+      out.style.display = 'block';
+      out.innerHTML = message;
+    }
+  </script>
+<!-- FIM  -->
+
+ <!-- NOVO SCRIPT QUE FAZ IMPORTAÇÃO -->
+
+<script>
+function exportTemplate() {
+  const text = document.getElementById('template').value.trim();
+  if (!text) {
+    showOutput('⚠️ Não há template para exportar.');
+    return;
+  }
+
+  const data = {
+    template: text,
+    createdAt: new Date().toISOString()
+  };
+
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'template_validacao_T5.json';
+  a.click();
+
+  URL.revokeObjectURL(url);
+  showOutput('Template exportado com sucesso.');
+}
+
+function importTemplate() {
+  const file = document.getElementById('fileInput').files[0];
+  if (!file) return;
+
+  const reader = new FileReader();
+  reader.onload = function (e) {
+    try {
+      const data = JSON.parse(e.target.result);
+      document.getElementById('template').value = data.template || '';
+      showOutput('Template importado com sucesso.');
+    } catch {
+      showOutput('❌ Arquivo inválido.');
+    }
+  };
+  reader.readAsText(file);
+}
+</script>
+
+</body>
+</html>
