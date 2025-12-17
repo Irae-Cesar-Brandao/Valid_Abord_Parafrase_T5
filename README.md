@@ -60,3 +60,55 @@ Seu foco está na **estrutura conceitual**, **análise crítica** e **justificat
 ## Considerações Finais
 
 Este projeto busca contribuir para a compreensão crítica do uso de dados sintéticos em NLP, enfatizando que **a validade de uma abordagem não depende apenas de resultados numéricos**, mas de uma **avaliação metodológica bem fundamentada**.
+
+
+-----------------------------
+
+Academic Research and Educational Use License (AREUL)
+
+Copyright (c) 2025
+Author: Iraê César Brandão
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software, documentation, and associated materials (the "Work"), to use,
+copy, modify, and distribute the Work solely for academic, educational, and
+non-commercial research purposes, subject to the following conditions:
+
+1. Permitted Uses
+   - Academic research and experimentation
+   - Educational activities and teaching
+   - Non-commercial scientific studies
+   - Reproducibility and methodological analysis
+   - Inclusion in academic theses, dissertations, and scholarly publications,
+     provided proper attribution is given
+
+2. Prohibited Uses
+   - Commercial use of any kind
+   - Integration into proprietary or commercial products
+   - Sale, licensing, or sublicensing for profit
+   - Use in production systems or services offered commercially
+
+3. Attribution Requirement
+   Any use of this Work must include appropriate citation of the author and
+   reference to the original repository. Suggested citation:
+
+   Brandão, I. C. (2025). Validation of Synthetic Data via T5 Paraphrasing for HRI.
+   GitHub repository.
+
+4. Disclaimer of Warranty
+   The Work is provided "AS IS", without warranty of any kind, express or implied,
+   including but not limited to the warranties of merchantability, fitness for a
+   particular purpose, and noninfringement. In no event shall the authors or
+   copyright holders be liable for any claim, damages, or other liability.
+
+5. Limitation of Liability
+   Under no circumstances shall the author be liable for any direct, indirect,
+   incidental, or consequential damages arising from the use or inability to use
+   the Work.
+
+6. Governing Principles
+   This license is intended to support open academic inquiry while preventing
+   unauthorized commercial exploitation of scholarly work.
+
+By using, copying, or distributing this Work, you agree to the terms of this
+license.
