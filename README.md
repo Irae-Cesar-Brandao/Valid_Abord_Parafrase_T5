@@ -1,5 +1,6 @@
 # Validação Objetiva de Dados Sintéticos por Paráfrase T5 em HRI
 Criador: Iraê César Brandão  - Desenvolvedor e Programador
+Disponibilizado em: <https://irae-cesar-brandao.github.io/Valid_Abord_Parafrase_T5/>
 
 
 ## Contexto Acadêmico
