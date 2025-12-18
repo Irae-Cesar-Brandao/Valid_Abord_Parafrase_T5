@@ -1,4 +1,6 @@
 # Validação Objetiva de Dados Sintéticos por Paráfrase T5 em HRI
+ Copyright © 2025  Iraê César Brandão
+ 
 Criador: Iraê César Brandão  - Desenvolvedor e Programador
 Disponibilizado em: <https://irae-cesar-brandao.github.io/Valid_Abord_Parafrase_T5/>
 
@@ -67,7 +69,7 @@ Este projeto busca contribuir para a compreensão crítica do uso de dados sint�
 
 Academic Research and Educational Use License (AREUL)
 
-Copyright (c) 2025
+Copyright © 2025  
 Author: Iraê César Brandão
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
