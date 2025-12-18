@@ -105,22 +105,7 @@
             a análise e avaliação, de modo a assegurar a validade, a coerência e a robustez
             do processo de validação da abordagem T5 no contexto experimental.<br>
         </p>
-      <h3> Glossário</h3>
-          <p>
-        •	<b> Paráfrase T5: </b>refere-se ao uso do modelo T5 (Text-to-Text Transfer Transformer) para
-            reescrever sentenças mantendo o significado semântico, sendo amplamente aplicado 
-            em tarefas de paráfrase, tradução e geração controlada de texto (Raffel et al., 2020). <br><br>
-            
-        •	<b> Geração de dados sintéticos </b>: é a criação artificial de dados, por meio de modelos 
-            computacionais, que preservam propriedades estatísticas e semânticas dos dados reais,
-            sendo usada para ampliar conjuntos de treino, reduzir vieses e contornar limitações de 
-            coleta (Frid-Adar et al., 2018; Shorten & Khoshgoftaar, 2019).<br><br>
-            
-        •	<b>HRI (Human-Robot Interaction):</b> é a área de pesquisa que estuda como humanos 
-            e robôs se comunicam, cooperam e interagem, incluindo linguagem 
-            natural, comandos, percepção e comportamento social (Goodrich & Schultz, 2007).
-          <br>
-        </p>
+      
   </section>
   <section>
      <p>Na Tabela 1 representamos a descrição de uma síntese dos “níveis de dificuldade”  
@@ -542,7 +527,7 @@ Representa um cenário de validação bem-sucedida. <br>
       </tr>
     </tbody>
   </table>
-
+  
   <p>
     A combinação de métricas linguísticas intermediárias com elevada preservação
     de intenção fornece evidências objetivas de que a abordagem de paráfrase T5
@@ -550,6 +535,52 @@ Representa um cenário de validação bem-sucedida. <br>
     humano–robô, apoiando o treinamento robusto de modelos.
   </p>
 </section>
+
+<section>
+<h3> Glossário</h3>
+          
+  <h6>
+  <p>
+    
+•		<b>BLEU (Bilingual Evaluation Understudy) </b>: métrica automática que avalia a qualidade 
+            de textos gerados comparando n-gramas do texto produzido com referências humanas, 
+            sendo muito usada em tradução automática (Lundeberg & Lee (2017). <br><br>
+            
+•		<b>Geração de dados sintéticos </b>: é a criação artificial de dados, por meio de modelos
+            computacionais, que preservam propriedades estatísticas e semânticas dos dados 
+            reais, sendo usada para ampliar conjuntos de treino, reduzir vieses e contornar 
+            limitações de coleta (Frid-Adar et al., 2018; Shorten & Khoshgoftaar, 2019). <br><br>
+            
+•		<b>HRI (Human-Robot Interaction) </b>: é a área de pesquisa que estuda como humanos e 
+            robôs se comunicam, cooperam e interagem, incluindo linguagem natural, comandos, 
+            percepção e comportamento social (Goodrich & Schultz, 2007). <br><br>
+            
+•		<b>LIME (Local Interpretable Model-agnostic Explanations) </b>: método de interpretabilidade
+            que explica previsões localmente, aproximando o comportamento do modelo complexo por
+            um modelo simples (geralmente linear) ao redor de uma instância específica (Lundeberg & Lee (2017). <br><br>
+            
+•		<b>Modelos de NLP (Processamento de Linguagem Natural) </b>: modelos computacionais que 
+            permitem aos sistemas compreenderem, gerar e manipular linguagem humana,
+            realizando tarefas como classificação de texto, tradução, sumarização e paráfrase. <br><br>
+            
+•		<b>Paráfrase T5 </b>: refere-se ao uso do modelo T5 (Text-to-Text Transfer Transformer)
+            para reescrever sentenças mantendo o significado semântico, sendo amplamente aplicado
+            em tarefas de paráfrase, tradução e geração controlada de texto (Raffel et al., 2020). <br><br>
+            
+•		<b>ROUGE (Recall-Oriented Understudy for Gisting Evaluation) </b>: conjunto de métricas 
+            que mede a sobreposição de unidades linguísticas (n-gramas, subsequências) 
+            entre um texto gerado e textos de referência, comum na avaliação de sumarização 
+            e geração de texto. <br><br>
+            
+•		<b>SHAP (SHapley Additive exPlanations) </b>: método de interpretabilidade baseado
+            na teoria dos valores de Shapley, que quantifica de forma consistente 
+            a contribuição de cada característica para a decisão final do modelo (Lundeberg & Lee (2017). <br><br>
+  </p>
+</h6>
+</section>
+
+  <hr><hr>
+  
 <section>
 <h3>REFERÊNCIAS</h3>
   <h6>
@@ -687,6 +718,7 @@ function importTemplate() {
 
 </body>
 </html>
+
 
 
 
